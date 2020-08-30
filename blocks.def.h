@@ -1,7 +1,7 @@
 //Modify this file to change what commands output to your statusbar, and recompile using the make command.
 static const Block blocks[] = {
 	/*Icon*/	/*Command*/		/*Update Interval*/	/*Update Signal*/
-  {"   ","battery", 60, 1},
+  {"   ","battery", 180, 1},
 
   {"; ","date '+%l:%M %P %a %b %e'", 60, 2},
 
