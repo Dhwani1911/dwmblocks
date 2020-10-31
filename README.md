@@ -6,7 +6,7 @@ After that you can put dwmblocks in your xinitrc or other startup script to have
 # modifying blocks
 The statusbar is made from text output from commandline programs.
 Blocks are added and removed by editing the blocks.h header file.
-By default the blocks.h header file is created the first time you run make which copies the default config from blocks.def.h.
+By default the blocks.h header file is created when the first time you run and it make which copies the default config from blocks.def.h.
 This is so you can edit your status bar commands and they will not get overwritten in a future update.
 # patches
 Here are some patches to dwmblocks that add features that I either don't want to merge in, or that require a dwm patch to work.
